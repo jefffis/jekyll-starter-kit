@@ -1,0 +1,6 @@
+name: your_site
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title
+redcarpet:
+    extensions: [with_toc_data]
