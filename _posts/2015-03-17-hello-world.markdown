@@ -6,7 +6,6 @@ cats:
  - name: 'fashion'
  - name: 'more fashion'
  - name: 'Zoolander'
-first_post: true
 ---
 
 It’s finally time to say au revoir after a month’s worth of fashion shows, **Paris fashion week** has come and gone and the non-stop rush of runways has wrapped for now. But like they say, always save the best for last — and Paris never disappoints. So while the champagne’s flowing in the city of light, we’ll celebrate by taking a look at the most chic and magnifique looks that walked down the Parisian runways.
