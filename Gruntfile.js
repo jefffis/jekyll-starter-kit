@@ -7,22 +7,22 @@ module.exports= function(grunt){
     sass: {
       dist: {
                 files: {
-                    'stylesheets/<%= pkg.file_name %>.css': 'css/sass/*.scss'
+                    'css/<%= pkg.file_name %>.css': 'css/sass/*.scss'
                 }
             }
     },
 
-    'min': {
-     'dist': {
-       'options': {
-         'report': false
-       },
-       'files': [{
-         'src': ['javascripts/echo.js','js/app.js'],
-         'dest': 'javascripts/<%= pkg.file_name %>.min.js'
-       }]
-     }
-    },
+    // 'min': {
+    //  'dist': {
+    //    'options': {
+    //      'report': false
+    //    },
+    //    'files': [{
+    //      'src': ['javascripts/*.js'],
+    //      'dest': 'javascripts/<%= pkg.file_name %>.min.js'
+    //    }]
+    //  }
+    // },
 
     'cssmin': {
       'dist': {

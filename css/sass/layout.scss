@@ -1,0 +1,8 @@
+article {
+    margin: auto;
+    max-width: 40rem;
+    padding: 0 1.5rem;
+    & + & {
+        margin-top: 3rem;
+    }
+}

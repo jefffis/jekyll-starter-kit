@@ -1,0 +1,12 @@
+@import 'var';
+
+header {
+    background: $blk;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    img {
+        display: block;
+        margin: auto;
+    }
+}
