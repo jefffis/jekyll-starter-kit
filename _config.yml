@@ -1,5 +1,6 @@
-name: your_site
-root: '###'
+name: 'Heck Yes!'
+root: '/'
+logo: 'https://s3.amazonaws.com/f.cl.ly/items/1b1K0B0118112Q233P0E/logo-b.png'
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title
