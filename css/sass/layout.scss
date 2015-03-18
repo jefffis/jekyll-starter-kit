@@ -1,8 +1,44 @@
 article {
     margin: auto;
-    max-width: 40rem;
+    max-width: 32.5rem;
     padding: 0 1.5rem;
     & + & {
         margin-top: 3rem;
+    }
+    img {
+        display: block;
+        margin: 1rem 0;
+        max-width: 100%;
+    }
+    p {
+        &:last-child {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.tags {
+    color: $grey;
+    margin: -.5rem 0 2rem;
+    span {
+        color: $blk;
+        &:after {
+            content: ",";
+        }
+        &:last-child {
+            &:after {
+                content: "";
+            }
+        }
+    }
+}
+
+.featured {
+    max-height: 20rem;
+    margin: -3rem 0 2rem;
+    overflow: hidden;
+    img {
+        display: block;
+        max-width: 100%;
     }
 }

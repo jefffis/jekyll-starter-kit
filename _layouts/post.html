@@ -3,8 +3,25 @@ layout: index
 ---
 
 {% include header.html %}
+		{% if page.first_post != null %}fefe{% endif %}
+		{% if page.feature_img != null %}
+		<div class="featured">
+			<img src="{{page.feature_img}}" alt="{{page.title}}" />
+		</div>
+		{% endif %}
 		<article>
 			<h1>{{page.title}}</h1>
+			{% if page.cats != null %}
+				<div class="tags">
+					Tagged as 
+					{% for c in page.cats %}
+						<span>{{c.name}}</span>
+					{% endfor %}
+				</div>
+			{% endif %}
 			{{content}}
+			<p>
+				<a href="{{site.root}}">Back to home</a>
+			</p>
 		</article>
 {% include footer.html %}

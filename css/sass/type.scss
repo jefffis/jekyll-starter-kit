@@ -1,7 +1,32 @@
 @import 'var';
 
+html {
+    font: normal 105%/1.5 $proxima;
+}
+
+h1, h2, h3, p {
+    margin: 0 0 1rem;
+}
+
 h1, h2, h3 {
-    font-family: $proxima;
     font-weight: normal;
+    letter-spacing: 2px;
     line-height: 1.2;
+    text-transform: uppercase;
+    & + p {
+        margin-top: 2rem;
+    }
+}
+p {
+    color: $grey;
+    & + & {
+        margin-top: 2rem;
+    }
+}
+
+a, a:visited {
+    color: $red;
+    &:focus {
+        outline: 1px dotted currentColor;
+    }
 }

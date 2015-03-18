@@ -5,6 +5,11 @@ layout: index
 {% include header.html %}
 
 {% for post in site.posts %}
+	{% if post.feature_img != null %}
+	<div class="featured">
+		<img src="{{post.feature_img}}" alt="{{post.title}}" />
+	</div>
+	{% endif %}
 	<article>
 		<h1><a href="{{post.url}}">{{post.title}}</a></h1>
 	</article>

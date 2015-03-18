@@ -1,4 +1,5 @@
 name: your_site
+root: '###'
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title
